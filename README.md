@@ -32,13 +32,13 @@ NW: x - 1, y + 2
 
 
 
-                                   NW        NE
+                                    NW      NE
                              
                               WN                   EN
                         
                               WS                   ES
                         
-                                   SW         SE
+                                    SW       SE
                                    
 Algortithms:
 
@@ -51,10 +51,12 @@ Algortithms:
 Depth-First Search
      Algorithm will choose the leftmost child node and move down a level until it reaches a terminal node.
      (a,b,e,f,c,g,h,d,i,j)
+     (less memory than breadth first, sometimes optimal to depth-first)
      
 Breadth-First Search
      Searches all children in order of preference direction before going down a level.
      (a,b,c,d,e,f,g,h,i,j)
+     (Uses Most memory, sometimes optimal to depth first)
      
 A* Search (Heauristic is Manhattan Distance)
      Checks to see which child is optimal before moving to that level.  In case of tie, look to preference direction.
@@ -73,20 +75,23 @@ Hold ctrl + F5 to run without debugging.
 
 Inputs:
 
-First input:  m * n board size
+First input:  m * n board size (m and n integers separated  by whitespace)
 
 Second input: Total Moves
 
-Third input: Starting coordinates for knight (max is (m-1, n-1))
+Third input: Starting coordinates for knight (Integers separated by whitespace: max is m-1 n-1)
 
-Fouth input:  Pawn's coordinates (max is (m-1, n-1))
+Fouth input:  Pawn's coordinates (Integers separated by whitespace: max is m-1 n-1)
 
-Fifth input: int representing preference direction.
-
-
+Fifth input: integer representing preference direction.
 
 
 
+
+Note:
+
+
+Priority Queue used in project found here : http://www.codeproject.com/Articles/126751/Priority-queue-in-C-with-the-help-of-heap-data-str 
 
 
 
