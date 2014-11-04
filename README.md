@@ -89,6 +89,7 @@ Fifth input: integer representing preference direction.
 
 
 Note:
+-----
 
 
 Priority Queue used in project found here : http://www.codeproject.com/Articles/126751/Priority-queue-in-C-with-the-help-of-heap-data-str 
