@@ -73,13 +73,13 @@ Hold ctrl + F5 to run without debugging.
 
 Inputs:
 
-First input:  n * m board size
+First input:  m * n board size
 
 Second input: Total Moves
 
-Third input: Starting coordinates for knight
+Third input: Starting coordinates for knight (max is (m-1, n-1))
 
-Fouth input:  Pawn's coordinates
+Fouth input:  Pawn's coordinates (max is (m-1, n-1))
 
 Fifth input: int representing preference direction.
 
