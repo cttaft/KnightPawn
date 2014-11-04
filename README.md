@@ -1,7 +1,10 @@
-KnightPawn
+Knight-Pawn
 ==========
 
 A Project for My CSC340 AI class
+
+Rules
+==========
 
 One knight, one pawn.
 
