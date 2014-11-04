@@ -4,7 +4,7 @@ Knight-Pawn
 A Project for My CSC340 AI class
 
 Rules
-==========
+------
 
 One knight, one pawn.
 
@@ -61,7 +61,7 @@ A* Search (Heauristic is Manhattan Distance)
 (Optimal of the 3 searches)
 
 To Run
-==========
+-------
 You must have Visual Studio with C# extensions installed.
 
 Extract .zip file.
