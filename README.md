@@ -25,10 +25,10 @@ NW: x - 1, y + 2
 
 
 
-                               NW-------------NE
+                                 NW           NE
                              
                             WN                     EN
                         
-                            WS                    ES
+                            WS                     ES
                         
                                  SW           SE
